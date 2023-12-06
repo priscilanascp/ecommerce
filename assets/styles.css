@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Josefin Sans', sans-serif;
+       
+}
+
+body{
+    background: #000000;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    background: #000000;
+    box-shadow: 0 0 20px 3px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+   }
+
+.a-nav {
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #f7f7f7;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    cursor: pointer;
+   }
+   .a-nav:after {
+    content: "";
+    position: absolute;
+    background-color: #f7f7f7;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+   } 
+   .a-nav:hover {
+    color: #d61b88;
+   }
+   .a-nav:hover:after {
+    width: 100%;
+   }
+
+
+   ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:700px;
+    position: relative;
+   }
+
+ 
+
+
+
+
+  h1 {
+      font-family: 'Josefins Sans' solid;
+      font-size: 30px;
+      text-align: center;
+      color:#ffffff;
+      position: relative;
+      top: 280px;
+      margin-left: 45px; 
+      border-radius: 5px;
+      letter-spacing: 0.5px;     
+      transition: all 0.3s ease;
+      transform: scaleX(1);
+      width: 20%;
+      height: 70px;
+      padding: 0 2rem;
+  }
+
+  
+  
+  
+  form {
+      opacity: 0;
+      transition: opacity 1s linear;
+      background-color: #ffffff ;
+      border-radius: 10px;
+      float: right;
+      padding: 20px;
+      margin-right: 50px;
+      position: relative;
+      bottom: 70px;
+  }
+  
+
+  input {
+      display: block;
+      background: #F9F9F9;
+      border: 1px solid #E6E6E6;
+      border-radius: 5px;
+      height: 30px;
+      width: 250px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+  }
+  
+
+
+  
+  label {
+      font-size: 14px;
+      color: #252B42;
+  }
+
+
+  
+  .box-image {
+      background-image: url("./img/sm3.png");
+      background-size: cover;
+      height: 70vh;
+      
+  }
+
+
+
+  
+
+
+
+
+  
