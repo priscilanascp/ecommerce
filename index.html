@@ -4,37 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/styles.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
     <title>ECOMMERCE</title>
 </head>
 <body>
-    <div class="header" >
-    <header> <!--Início do Cabeçalho-->
-        
-       
-          
-        <ul>
-            <li>
-        <nav><!--Barra de navegação-->
-            <a class="a-nav" href="index.html">Home</a>
-            <a class="a-nav" href="#servicos" class="link-cabecalho">Serviços</a>
-            <a class="a-nav" href="cadastro.php">Faça seu cadastro</a>
-            <a class="a-nav" href="login.php">Faça seu login</a>
-        </nav>
-    </li>
-        </ul>
-        
-    </header><!--Fim do Cabeçalho-->
+
+
+
+
+    <div class="header">
+        <header>
+            <ul>
+                <li>
+                    <nav>
+                        <div>
+                            <a class="a-nav" href="index.html"><i class="fas fa-home"></i> Home</a>
+                            <a class="a-nav" href="#servicos" class="link-cabecalho"><i class="fas fa-cogs"></i> Serviços</a>
+                            <a class="a-nav" href="cadastro.php"><i class="fas fa-user-plus"></i> Cadastro</a>
+                            <a class="a-nav" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+                            <!-- Adicione ícones usando a classe "fas" e o nome do ícone do Font Awesome -->
+                        </div>
+                    </nav>
+                </li>
+            </ul>
+        </header>
     </div>
+    
+
+   
+    
     <div class="titulo"><!--Título da página-->
         <h1>ECOMMERCE</h1>
        
     </div>
-    <div class="box-image">
-          
+
+    
+  
+       
+        <style>
+            .cards-container {
+            
+            display: flex; /* Utiliza flexbox */
+            justify-content: center; /* Centraliza na horizontal */
+            gap: 20px; /* Espaçamento entre os cards */
+            flex-wrap: wrap; /* Quebra para a próxima linha se não houver espaço suficiente */
+            border:3px solid #d61b88;
+            width: 750px;
+            padding: 50px;
+            margin-left: 400px;
+     
+            
+           
+        }
+    
+            /* Estilos para o texto no card */
+            .card p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 30px;
+                color: #ffffff;
+                /* Adicione outros estilos conforme necessário */
+            }
+    
+            /* Estilos para as imagens nos cards */
+            .card img {
+                
+                width: 100%;
+                height: auto;
+                border-radius: 10px; /* Arredonda somente os cantos superiores */
+                /* Adicione outros estilos conforme necessário */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <!-- Seu cabeçalho aqui -->
         </div>
+    
+       
+    
+        <div class="cards-container">
+            <!-- Primeiro card com imagem -->
+            <div class="card">
+                <img src="assets/img/fone.png" alt="Descrição da Imagem">
+                <h2>Título do Card</h2>
+                <p>Fone de Ouvido sem fio por 250,00R$</p>
+                <a href="#" class="button">Saiba Mais</a>
+                
+            </div>
+
+            222
+            
+            
+           
+    
     
 
     

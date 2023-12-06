@@ -60,7 +60,9 @@ body{
    }
 
  
-
+    li{
+        list-style-type: none;
+    }
 
 
 
@@ -70,7 +72,6 @@ body{
       text-align: center;
       color:#ffffff;
       position: relative;
-      top: 280px;
       margin-left: 45px; 
       border-radius: 5px;
       letter-spacing: 0.5px;     
@@ -117,13 +118,20 @@ body{
   }
 
 
-  
-  .box-image {
-      background-image: url("./img/sm3.png");
-      background-size: cover;
-      height: 70vh;
-      
-  }
+
+
+  /* Estilos para o contêiner da imagem */
+.image-container {
+    width: 500px; /* Largura desejada do contêiner */
+    height: 70vh; /* Altura desejada do contêiner */
+    border: 3px solid #db1ea2; /* Borda ao redor do contêiner */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse as dimensões do contêiner */
+    display: flex; /* Usa flexbox para centralizar a imagem */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
 
 
 
